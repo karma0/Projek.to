@@ -18,7 +18,7 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -30,7 +30,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 group :production do
-  gem 'pg'
+#  gem 'pg'
 end
 
 group :development do
