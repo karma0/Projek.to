@@ -4,7 +4,7 @@ describe PagesController do
   render_views
 
   before(:each) do
-    @base_title = "OMBUDSMAN Community"
+    @base_title = "Projekto Community"
   end
 
   describe "GET 'home'" do

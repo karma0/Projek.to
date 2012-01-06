@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+Projekto::Application.routes.draw do
 
   resources :users do
     member do

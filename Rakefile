@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ombudsman::Application.load_tasks
+Projekto::Application.load_tasks
