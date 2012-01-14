@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-Projekto::Application.config.session_store :cookie_store, :key => '_projekto_session'
+Neo4jRailsExample::Application.config.session_store :cookie_store, :key => '_neo4j-rails-example_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
-# (create the session table with "rails generate session_migration")
-# Projekto::Application.config.session_store :active_record_store
+# (create the session table with "rake db:sessions:create")
+# Neo4jRailsExample::Application.config.session_store :active_record_store

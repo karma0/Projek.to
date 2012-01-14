@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Projekto::Application.config.secret_token = '4b67972c7f8b0be9314c813c9eb128abfad57618af1d518546bd82d4ac45260c6953d4085ff5a53c5e8246f22fc323ebccd1914c56f708d94a486bc30ac1015e'
+Neo4jRailsExample::Application.config.secret_token = '59e468f1df0a2b30155196f23d4b82b631b802b9e6da8cec2e79df273dd582cb11775519fb5c9892a2d403178b71b255afec357afb9b60439dc3709e553681d3'

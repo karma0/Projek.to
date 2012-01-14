@@ -1,0 +1,522 @@
+2012-01-14 10:30:43.004+0000: Creating new db @ /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/neostore
+2012-01-14 10:30:45.169+0000: Opened [/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2012-01-14 10:30:45.302+0000: Opened [/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-01-14 10:30:45.346+0000: TM new log: tm_tx_log.1
+2012-01-14 10:30:45.426+0000: --- CONFIGURATION START ---
+2012-01-14 10:30:45.426+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1326537043020, id:4096058568133984863, store version: 13561656364791302]
+2012-01-14 10:30:45.426+0000: Physical mem: 3925MB, Heap size: 444MB
+2012-01-14 10:30:45.428+0000: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-01-14 10:30:45.428+0000: Neo4j component versions:
+2012-01-14 10:30:45.429+0000:   Neo4j - Graph Database Kernel 1.6.M01
+2012-01-14 10:30:45.429+0000: Store versions:
+2012-01-14 10:30:45.429+0000:   NeoStore v0.A.0
+2012-01-14 10:30:45.430+0000:   NodeStore v0.A.0
+2012-01-14 10:30:45.430+0000:   RelationshipStore v0.A.0
+2012-01-14 10:30:45.430+0000:   RelationshipTypeStore v0.A.0
+2012-01-14 10:30:45.430+0000:   PropertyStore v0.A.0
+2012-01-14 10:30:45.430+0000:   PropertyIndexStore v0.A.0
+2012-01-14 10:30:45.430+0000:   StringPropertyStore v0.A.0
+2012-01-14 10:30:45.430+0000:   ArrayPropertyStore v0.A.0
+2012-01-14 10:30:45.434+0000: Process id: 23737@orbiter.karma0.net
+2012-01-14 10:30:45.434+0000: Operating System: Linux; version: 3.2.0-gentoo-r1; arch: amd64; cpus: 2
+2012-01-14 10:30:45.435+0000: Max number of file descriptors: 4096
+2012-01-14 10:30:45.435+0000: Number of open file descriptors: 76
+2012-01-14 10:30:45.458+0000: Total Physical memory: 3.83 GB
+2012-01-14 10:30:45.458+0000: Free Physical memory: 395.88 MB
+2012-01-14 10:30:45.458+0000: Committed virtual memory: 916.41 MB
+2012-01-14 10:30:45.459+0000: Total swap space: 9.32 GB
+2012-01-14 10:30:45.459+0000: Free swap space: 9.06 GB
+2012-01-14 10:30:45.460+0000: Byte order: LITTLE_ENDIAN
+2012-01-14 10:30:45.460+0000: VM Name: OpenJDK 64-Bit Server VM
+2012-01-14 10:30:45.460+0000: VM Vendor: Sun Microsystems Inc.
+2012-01-14 10:30:45.460+0000: VM Version: 20.0-b11
+2012-01-14 10:30:45.461+0000: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2012-01-14 10:30:45.464+0000: Class Path:
+2012-01-14 10:30:45.464+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jackson-core-asl-1.8.3.jar
+2012-01-14 10:30:45.464+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/blueprints-core-1.0.jar
+2012-01-14 10:30:45.464+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-collections-3.2.1.jar
+2012-01-14 10:30:45.464+0000:    [bootstrap] /home/escher/.rvm/rubies/jruby-1.6.4/lib/jruby.jar
+2012-01-14 10:30:45.464+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/blueprints-neo4j-graph-1.0.jar
+2012-01-14 10:30:45.464+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-gremlin-plugin-1.6.M01.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/rrd4j-2.0.7.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-01-14 10:30:45.465+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/resources.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jetty-util-6.1.25.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jersey-core-1.9.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-01-14 10:30:45.465+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/jsse.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/asm-3.1.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/groovy-1.8.2.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-lang-2.4.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jersey-server-1.9.jar
+2012-01-14 10:30:45.465+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/rhino.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jackson-mapper-asl-1.8.3.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/antlr-2.7.7.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/gremlin-1.3.jar
+2012-01-14 10:30:45.465+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-logging-1.1.1.jar
+2012-01-14 10:30:45.465+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/sunjce_provider.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/modules/jdk.boot.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-configuration-1.6.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/sunrsasign.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/plugin.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jetty-6.1.25.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/servlet-api-2.5-20081211.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/charsets.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/json-1.6.4-java/lib/json/ext/parser.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/netx.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-server-1.6.M01.jar
+2012-01-14 10:30:45.466+0000:    [loader.1] file:/home/escher/src/rails/neo4j-rails-example/
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/pipes-0.8.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/rt.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-01-14 10:30:45.466+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/localedata.jar
+2012-01-14 10:30:45.466+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/sunpkcs11.jar
+2012-01-14 10:30:45.466+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jansi-1.5.jar
+2012-01-14 10:30:45.466+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/classes
+2012-01-14 10:30:45.466+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/dnsns.jar
+2012-01-14 10:30:45.467+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-cypher-plugin-1.6.M01.jar
+2012-01-14 10:30:45.467+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-01-14 10:30:45.467+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/json-1.6.4-java/lib/json/ext/generator.jar
+2012-01-14 10:30:45.467+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-server-1.6.M01-static-web.jar
+2012-01-14 10:30:45.467+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/jce.jar
+2012-01-14 10:30:45.467+0000: Library Path:
+2012-01-14 10:30:45.467+0000:   /opt/icedtea6-bin-1.10.4/jre/lib/amd64/server
+2012-01-14 10:30:45.467+0000:   /opt/icedtea6-bin-1.10.4/jre/lib/amd64
+2012-01-14 10:30:45.467+0000:   /opt/icedtea6-bin-1.10.4/lib/amd64
+2012-01-14 10:30:45.467+0000:   /usr/java/packages/lib/amd64
+2012-01-14 10:30:45.467+0000:   /usr/lib64
+2012-01-14 10:30:45.467+0000:   /lib64
+2012-01-14 10:30:45.467+0000:   /lib64
+2012-01-14 10:30:45.468+0000:   /usr/lib64
+2012-01-14 10:30:45.484+0000: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-01-14 10:30:45.484+0000: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-01-14 10:30:45.485+0000: Memory Pool: Code Cache (Non-heap memory): committed=3.81 MB, used=3.69 MB, max=48.00 MB, threshold=0.00 B
+2012-01-14 10:30:45.485+0000: Memory Pool: PS Eden Space (Heap memory): committed=131.50 MB, used=28.21 MB, max=132.94 MB, threshold=?
+2012-01-14 10:30:45.486+0000: Memory Pool: PS Survivor Space (Heap memory): committed=16.13 MB, used=13.71 MB, max=16.13 MB, threshold=?
+2012-01-14 10:30:45.486+0000: Memory Pool: PS Old Gen (Heap memory): committed=40.94 MB, used=32.05 MB, max=333.38 MB, threshold=0.00 B
+2012-01-14 10:30:45.487+0000: Memory Pool: PS Perm Gen (Non-heap memory): committed=31.44 MB, used=31.42 MB, max=166.00 MB, threshold=0.00 B
+2012-01-14 10:30:45.487+0000: VM Arguments: [-Djdk.home=, -Djruby.home=/home/escher/.rvm/rubies/jruby-1.6.4, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/ppc-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/i386-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/escher/.rvm/rubies/jruby-1.6.4/lib/jruby.jar]
+2012-01-14 10:30:45.487+0000: System properties:
+2012-01-14 10:30:45.499+0000:   jruby.home = /home/escher/.rvm/rubies/jruby-1.6.4
+2012-01-14 10:30:45.504+0000:   sun.boot.library.path = /opt/icedtea6-bin-1.10.4/jre/lib/amd64
+2012-01-14 10:30:45.504+0000:   path.separator = :
+2012-01-14 10:30:45.504+0000:   file.encoding.pkg = sun.io
+2012-01-14 10:30:45.504+0000:   sun.java.launcher = SUN_STANDARD
+2012-01-14 10:30:45.504+0000:   user.country = US
+2012-01-14 10:30:45.504+0000:   sun.os.patch.level = unknown
+2012-01-14 10:30:45.504+0000:   user.dir = /home/escher/src/rails/neo4j-rails-example
+2012-01-14 10:30:45.504+0000:   jdk.home = 
+2012-01-14 10:30:45.504+0000:   sun.jnu.encoding = ANSI_X3.4-1968
+2012-01-14 10:30:45.504+0000:   jruby.memory.max = 500m
+2012-01-14 10:30:45.504+0000:   sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2012-01-14 10:30:45.504+0000:   jffi.boot.library.path = /home/escher/.rvm/rubies/jruby-1.6.4/lib/native/ppc-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/i386-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/x86_64-Linux
+2012-01-14 10:30:45.504+0000:   user.home = /home/escher
+2012-01-14 10:30:45.504+0000:   user.timezone = UTC
+2012-01-14 10:30:45.505+0000:   file.encoding = ANSI_X3.4-1968
+2012-01-14 10:30:45.505+0000:   jruby.stack.max = 2048k
+2012-01-14 10:30:45.505+0000:   jruby.script = jruby
+2012-01-14 10:30:45.505+0000:   user.name = escher
+2012-01-14 10:30:45.505+0000:   jruby.shell = /bin/sh
+2012-01-14 10:30:45.505+0000:   sun.java.command = org/jruby/Main /home/escher/.rvm/gems/jruby-1.6.4@projek.to/bin/rake --trace
+2012-01-14 10:30:45.505+0000:   sun.arch.data.model = 64
+2012-01-14 10:30:45.505+0000:   user.language = en
+2012-01-14 10:30:45.505+0000:   file.separator = /
+2012-01-14 10:30:45.505+0000:   sun.io.unicode.encoding = UnicodeLittle
+2012-01-14 10:30:45.505+0000:   sun.cpu.endian = little
+2012-01-14 10:30:45.505+0000:   sun.cpu.isalist = 
+2012-01-14 10:30:45.505+0000: Neo4j Kernel properties:
+2012-01-14 10:30:45.505+0000:   store_dir=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:45.505+0000:   logical_log=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log
+2012-01-14 10:30:45.505+0000:   online_backup_enabled=NO
+2012-01-14 10:30:45.505+0000:   ha.machine_id=2
+2012-01-14 10:30:45.505+0000:   enable_rules=YES
+2012-01-14 10:30:45.505+0000:   min_node_cache_size=0
+2012-01-14 10:30:45.506+0000:   neostore.relationshipstore.db.mapped_memory=50M
+2012-01-14 10:30:45.506+0000:   node_auto_indexing=false
+2012-01-14 10:30:45.506+0000:   neostore.nodestore.db.mapped_memory=25M
+2012-01-14 10:30:45.506+0000:   min_relationship_cache_size=0
+2012-01-14 10:30:45.506+0000:   ha.db=NO
+2012-01-14 10:30:45.506+0000:   max_relationship_cache_size=3500
+2012-01-14 10:30:45.506+0000:   use_adaptive_cache=YES
+2012-01-14 10:30:45.506+0000:   adaptive_cache_heap_ratio=0.77
+2012-01-14 10:30:45.506+0000:   identity_map=NO
+2012-01-14 10:30:45.506+0000:   adaptive_cache_manager_decrease_ratio=1.15
+2012-01-14 10:30:45.506+0000:   timestamps=YES
+2012-01-14 10:30:45.506+0000:   use_memory_mapped_buffers=true
+2012-01-14 10:30:45.506+0000:   rebuild_idgenerators_fast=true
+2012-01-14 10:30:45.506+0000:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-01-14 10:30:45.506+0000:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-01-14 10:30:45.506+0000:   max_node_cache_size=1500
+2012-01-14 10:30:45.506+0000:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-01-14 10:30:45.506+0000:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-01-14 10:30:45.506+0000:   neo_store=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/neostore
+2012-01-14 10:30:45.506+0000:   adaptive_cache_worker_sleep_time=3000
+2012-01-14 10:30:45.506+0000:   neostore.propertystore.db.index.mapped_memory=1M
+2012-01-14 10:30:45.507+0000:   create=true
+2012-01-14 10:30:45.507+0000:   adaptive_cache_manager_increase_ratio=1.1
+2012-01-14 10:30:45.507+0000:   enable_remote_shell=port=9332
+2012-01-14 10:30:45.507+0000:   neostore.propertystore.db.mapped_memory=90M
+2012-01-14 10:30:45.507+0000:   relationship_auto_indexing=false
+2012-01-14 10:30:45.507+0000:   storage_path=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:45.507+0000:   ha.server=localhost:6002
+2012-01-14 10:30:45.507+0000:   migration_thread=NO
+2012-01-14 10:30:45.507+0000: Storage files:
+2012-01-14 10:30:45.507+0000:   lock: 0.00 B
+2012-01-14 10:30:45.508+0000:   neostore.propertystore.db.index: 0.00 B
+2012-01-14 10:30:45.508+0000:   neostore.relationshiptypestore.db: 0.00 B
+2012-01-14 10:30:45.508+0000:   neostore.propertystore.db.id: 9.00 B
+2012-01-14 10:30:45.508+0000:   index:
+2012-01-14 10:30:45.508+0000:     lucene.log.1: 16.00 B
+2012-01-14 10:30:45.508+0000:     lucene-store.db: 32.00 B
+2012-01-14 10:30:45.508+0000:     lucene.log.active: 4.00 B
+2012-01-14 10:30:45.509+0000:   - Total: 52.00 B
+2012-01-14 10:30:45.509+0000:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-01-14 10:30:45.509+0000:   neostore.propertystore.db.arrays: 128.00 B
+2012-01-14 10:30:45.509+0000:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-01-14 10:30:45.509+0000:   neostore.propertystore.db: 0.00 B
+2012-01-14 10:30:45.509+0000:   nioneo_logical.log.1: 16.00 B
+2012-01-14 10:30:45.509+0000:   neostore.id: 9.00 B
+2012-01-14 10:30:45.510+0000:   tm_tx_log.1: 0.00 B
+2012-01-14 10:30:45.510+0000:   neostore.propertystore.db.strings: 128.00 B
+2012-01-14 10:30:45.510+0000:   neostore.relationshiptypestore.db.names: 38.00 B
+2012-01-14 10:30:45.510+0000:   neostore.relationshipstore.db.id: 9.00 B
+2012-01-14 10:30:45.510+0000:   neostore: 54.00 B
+2012-01-14 10:30:45.510+0000:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-01-14 10:30:45.511+0000:   neostore.propertystore.db.index.keys: 38.00 B
+2012-01-14 10:30:45.511+0000:   nioneo_logical.log.active: 4.00 B
+2012-01-14 10:30:45.511+0000:   neostore.propertystore.db.strings.id: 9.00 B
+2012-01-14 10:30:45.511+0000:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-01-14 10:30:45.511+0000:   active_tx_log: 11.00 B
+2012-01-14 10:30:45.511+0000:   neostore.nodestore.db: 9.00 B
+2012-01-14 10:30:45.511+0000:   neostore.relationshipstore.db: 0.00 B
+2012-01-14 10:30:45.512+0000:   neostore.nodestore.db.id: 9.00 B
+2012-01-14 10:30:45.512+0000:   messages.log: 17.44 kB
+2012-01-14 10:30:45.512+0000:   neostore.propertystore.db.index.id: 9.00 B
+2012-01-14 10:30:45.512+0000: Id usage:
+2012-01-14 10:30:45.512+0000:   NodeStore: used=1 high=0
+2012-01-14 10:30:45.512+0000:   RelationshipStore: used=0 high=-1
+2012-01-14 10:30:45.512+0000:   RelationshipTypeStore: used=0 high=-1
+2012-01-14 10:30:45.512+0000:   PropertyStore: used=0 high=-1
+2012-01-14 10:30:45.513+0000:   PropertyIndexStore: used=0 high=-1
+2012-01-14 10:30:45.513+0000:   StringPropertyStore: used=1 high=0
+2012-01-14 10:30:45.513+0000:   ArrayPropertyStore: used=1 high=0
+2012-01-14 10:30:45.517+0000: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+  noop deadline [cfq] 
+  none
+
+2012-01-14 10:30:45.517+0000: --- CONFIGURATION END ---
+2012-01-14 10:30:45.750+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-01-14 10:30:45.753+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-01-14 10:30:46.510+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-01-14 10:30:46.679+0000: --- SERVER STARTUP START ---
+2012-01-14 10:30:46.679+0000: Server configuration:
+2012-01-14 10:30:46.680+0000:   org.neo4j.server.database.location = /home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:46.711+0000: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2012-01-14 10:30:46.775+0000: Loaded server plugin "CypherPlugin" (org.neo4j.server.plugin.cypher.CypherPlugin)
+2012-01-14 10:30:46.778+0000:   GraphDatabaseService.execute_query: execute a query
+2012-01-14 10:30:46.779+0000: Loaded server plugin "GremlinPlugin" (org.neo4j.server.plugin.gremlin.GremlinPlugin)
+2012-01-14 10:30:46.780+0000:   GraphDatabaseService.execute_script: execute a Gremlin script with 'g' set to the Neo4jGraph and 'results' containing the results. Only results of one object type is supported.
+2012-01-14 10:30:46.780+0000: Mounted REST API at: /db/data
+2012-01-14 10:30:46.782+0000: Mounted management API at: /db/manage
+2012-01-14 10:30:46.866+0000: Mounted webadmin at: /webadmin
+2012-01-14 10:30:49.898+0000: Server started on: http://localhost:7474/
+2012-01-14 10:30:49.908+0000: --- SERVER STARTUP END ---
+2012-01-14 10:30:52.358+0000: Closed log /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log
+2012-01-14 10:30:53.007+0000: NeoStore closed
+2012-01-14 10:30:53.063+0000: Closed log /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/index/lucene.log
+2012-01-14 10:30:53.064+0000: NeoStore closed
+2012-01-14 10:30:53.064+0000: TM shutting down
+2012-01-14 10:30:57.576+0000: Opened [/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2012-01-14 10:30:57.661+0000: Opened [/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-01-14 10:30:57.725+0000: TM opening log: /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/tm_tx_log.1
+2012-01-14 10:30:57.726+0000: --- CONFIGURATION START ---
+2012-01-14 10:30:57.726+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1326537043020, id:4096058568133984863, store version: 13561656364791302]
+2012-01-14 10:30:57.726+0000: Physical mem: 3925MB, Heap size: 444MB
+2012-01-14 10:30:57.726+0000: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-01-14 10:30:57.726+0000: Neo4j component versions:
+2012-01-14 10:30:57.727+0000:   Neo4j - Graph Database Kernel 1.6.M01
+2012-01-14 10:30:57.727+0000: Store versions:
+2012-01-14 10:30:57.727+0000:   NeoStore v0.A.0
+2012-01-14 10:30:57.727+0000:   NodeStore v0.A.0
+2012-01-14 10:30:57.727+0000:   RelationshipStore v0.A.0
+2012-01-14 10:30:57.727+0000:   RelationshipTypeStore v0.A.0
+2012-01-14 10:30:57.728+0000:   PropertyStore v0.A.0
+2012-01-14 10:30:57.728+0000:   PropertyIndexStore v0.A.0
+2012-01-14 10:30:57.728+0000:   StringPropertyStore v0.A.0
+2012-01-14 10:30:57.728+0000:   ArrayPropertyStore v0.A.0
+2012-01-14 10:30:57.728+0000: Process id: 23737@orbiter.karma0.net
+2012-01-14 10:30:57.728+0000: Operating System: Linux; version: 3.2.0-gentoo-r1; arch: amd64; cpus: 2
+2012-01-14 10:30:57.728+0000: Max number of file descriptors: 4096
+2012-01-14 10:30:57.729+0000: Number of open file descriptors: 91
+2012-01-14 10:30:57.729+0000: Total Physical memory: 3.83 GB
+2012-01-14 10:30:57.729+0000: Free Physical memory: 309.95 MB
+2012-01-14 10:30:57.729+0000: Committed virtual memory: 1010.21 MB
+2012-01-14 10:30:57.729+0000: Total swap space: 9.32 GB
+2012-01-14 10:30:57.730+0000: Free swap space: 9.06 GB
+2012-01-14 10:30:57.731+0000: Byte order: LITTLE_ENDIAN
+2012-01-14 10:30:57.731+0000: VM Name: OpenJDK 64-Bit Server VM
+2012-01-14 10:30:57.731+0000: VM Vendor: Sun Microsystems Inc.
+2012-01-14 10:30:57.731+0000: VM Version: 20.0-b11
+2012-01-14 10:30:57.731+0000: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2012-01-14 10:30:57.734+0000: Class Path:
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jackson-core-asl-1.8.3.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/blueprints-core-1.0.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-collections-3.2.1.jar
+2012-01-14 10:30:57.734+0000:    [bootstrap] /home/escher/.rvm/rubies/jruby-1.6.4/lib/jruby.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/blueprints-neo4j-graph-1.0.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-gremlin-plugin-1.6.M01.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/rrd4j-2.0.7.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-01-14 10:30:57.734+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/resources.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jetty-util-6.1.25.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jersey-core-1.9.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-01-14 10:30:57.734+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/jsse.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/asm-3.1.jar
+2012-01-14 10:30:57.734+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/groovy-1.8.2.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-lang-2.4.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jersey-server-1.9.jar
+2012-01-14 10:30:57.735+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/rhino.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jackson-mapper-asl-1.8.3.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/antlr-2.7.7.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/gremlin-1.3.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-logging-1.1.1.jar
+2012-01-14 10:30:57.735+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/sunjce_provider.jar
+2012-01-14 10:30:57.735+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/modules/jdk.boot.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/commons-configuration-1.6.jar
+2012-01-14 10:30:57.735+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/sunrsasign.jar
+2012-01-14 10:30:57.735+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/plugin.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jetty-6.1.25.jar
+2012-01-14 10:30:57.735+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/servlet-api-2.5-20081211.jar
+2012-01-14 10:30:57.735+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/charsets.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/json-1.6.4-java/lib/json/ext/parser.jar
+2012-01-14 10:30:57.736+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/netx.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-server-1.6.M01.jar
+2012-01-14 10:30:57.736+0000:    [loader.1] file:/home/escher/src/rails/neo4j-rails-example/
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/pipes-0.8.jar
+2012-01-14 10:30:57.736+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/rt.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-01-14 10:30:57.736+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/localedata.jar
+2012-01-14 10:30:57.736+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/sunpkcs11.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/jansi-1.5.jar
+2012-01-14 10:30:57.736+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/classes
+2012-01-14 10:30:57.736+0000:    [loader.2] file:/opt/icedtea6-bin-1.10.4/jre/lib/ext/dnsns.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-cypher-plugin-1.6.M01.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/json-1.6.4-java/lib/json/ext/generator.jar
+2012-01-14 10:30:57.736+0000:    [loader.0] file:/home/escher/.rvm/gems/jruby-1.6.4@projek.to/gems/neo4j-admin-0.0.2-java/lib/neo4j-admin/jars/neo4j-server-1.6.M01-static-web.jar
+2012-01-14 10:30:57.736+0000:    [bootstrap] /opt/icedtea6-bin-1.10.4/jre/lib/jce.jar
+2012-01-14 10:30:57.736+0000: Library Path:
+2012-01-14 10:30:57.737+0000:   /opt/icedtea6-bin-1.10.4/jre/lib/amd64/server
+2012-01-14 10:30:57.737+0000:   /opt/icedtea6-bin-1.10.4/jre/lib/amd64
+2012-01-14 10:30:57.737+0000:   /opt/icedtea6-bin-1.10.4/lib/amd64
+2012-01-14 10:30:57.737+0000:   /usr/java/packages/lib/amd64
+2012-01-14 10:30:57.737+0000:   /usr/lib64
+2012-01-14 10:30:57.737+0000:   /lib64
+2012-01-14 10:30:57.737+0000:   /lib64
+2012-01-14 10:30:57.737+0000:   /usr/lib64
+2012-01-14 10:30:57.737+0000: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-01-14 10:30:57.737+0000: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-01-14 10:30:57.738+0000: Memory Pool: Code Cache (Non-heap memory): committed=4.63 MB, used=4.45 MB, max=48.00 MB, threshold=0.00 B
+2012-01-14 10:30:57.738+0000: Memory Pool: PS Eden Space (Heap memory): committed=131.31 MB, used=114.92 MB, max=131.31 MB, threshold=?
+2012-01-14 10:30:57.738+0000: Memory Pool: PS Survivor Space (Heap memory): committed=17.56 MB, used=17.55 MB, max=17.56 MB, threshold=?
+2012-01-14 10:30:57.738+0000: Memory Pool: PS Old Gen (Heap memory): committed=84.06 MB, used=47.68 MB, max=333.38 MB, threshold=0.00 B
+2012-01-14 10:30:57.739+0000: Memory Pool: PS Perm Gen (Non-heap memory): committed=83.94 MB, used=46.58 MB, max=166.00 MB, threshold=0.00 B
+2012-01-14 10:30:57.739+0000: VM Arguments: [-Djdk.home=, -Djruby.home=/home/escher/.rvm/rubies/jruby-1.6.4, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/ppc-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/i386-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/escher/.rvm/rubies/jruby-1.6.4/lib/jruby.jar]
+2012-01-14 10:30:57.739+0000: System properties:
+2012-01-14 10:30:57.739+0000:   jruby.home = /home/escher/.rvm/rubies/jruby-1.6.4
+2012-01-14 10:30:57.739+0000:   sun.boot.library.path = /opt/icedtea6-bin-1.10.4/jre/lib/amd64
+2012-01-14 10:30:57.739+0000:   path.separator = :
+2012-01-14 10:30:57.739+0000:   file.encoding.pkg = sun.io
+2012-01-14 10:30:57.739+0000:   sun.java.launcher = SUN_STANDARD
+2012-01-14 10:30:57.739+0000:   user.country = US
+2012-01-14 10:30:57.739+0000:   sun.os.patch.level = unknown
+2012-01-14 10:30:57.739+0000:   user.dir = /home/escher/src/rails/neo4j-rails-example
+2012-01-14 10:30:57.739+0000:   neo4j.ext.udc.source = maven
+2012-01-14 10:30:57.739+0000:   jdk.home = 
+2012-01-14 10:30:57.739+0000:   sun.jnu.encoding = ANSI_X3.4-1968
+2012-01-14 10:30:57.739+0000:   jruby.memory.max = 500m
+2012-01-14 10:30:57.739+0000:   sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2012-01-14 10:30:57.739+0000:   jffi.boot.library.path = /home/escher/.rvm/rubies/jruby-1.6.4/lib/native/ppc-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/i386-Linux:/home/escher/.rvm/rubies/jruby-1.6.4/lib/native/x86_64-Linux
+2012-01-14 10:30:57.739+0000:   user.home = /home/escher
+2012-01-14 10:30:57.740+0000:   user.timezone = UTC
+2012-01-14 10:30:57.740+0000:   file.encoding = ANSI_X3.4-1968
+2012-01-14 10:30:57.740+0000:   jruby.stack.max = 2048k
+2012-01-14 10:30:57.740+0000:   jruby.script = jruby
+2012-01-14 10:30:57.740+0000:   user.name = escher
+2012-01-14 10:30:57.740+0000:   jruby.shell = /bin/sh
+2012-01-14 10:30:57.740+0000:   sun.java.command = org/jruby/Main /home/escher/.rvm/gems/jruby-1.6.4@projek.to/bin/rake --trace
+2012-01-14 10:30:57.740+0000:   sun.arch.data.model = 64
+2012-01-14 10:30:57.740+0000:   user.language = en
+2012-01-14 10:30:57.740+0000:   file.separator = /
+2012-01-14 10:30:57.740+0000:   sun.io.unicode.encoding = UnicodeLittle
+2012-01-14 10:30:57.740+0000:   sun.cpu.endian = little
+2012-01-14 10:30:57.740+0000:   sun.cpu.isalist = 
+2012-01-14 10:30:57.740+0000: Neo4j Kernel properties:
+2012-01-14 10:30:57.740+0000:   store_dir=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:57.740+0000:   logical_log=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log
+2012-01-14 10:30:57.740+0000:   online_backup_enabled=NO
+2012-01-14 10:30:57.740+0000:   ha.machine_id=2
+2012-01-14 10:30:57.740+0000:   enable_rules=YES
+2012-01-14 10:30:57.740+0000:   min_node_cache_size=0
+2012-01-14 10:30:57.741+0000:   neostore.relationshipstore.db.mapped_memory=50M
+2012-01-14 10:30:57.741+0000:   node_auto_indexing=false
+2012-01-14 10:30:57.741+0000:   neostore.nodestore.db.mapped_memory=25M
+2012-01-14 10:30:57.741+0000:   min_relationship_cache_size=0
+2012-01-14 10:30:57.741+0000:   ha.db=NO
+2012-01-14 10:30:57.741+0000:   max_relationship_cache_size=3500
+2012-01-14 10:30:57.741+0000:   use_adaptive_cache=YES
+2012-01-14 10:30:57.741+0000:   adaptive_cache_heap_ratio=0.77
+2012-01-14 10:30:57.741+0000:   identity_map=NO
+2012-01-14 10:30:57.741+0000:   adaptive_cache_manager_decrease_ratio=1.15
+2012-01-14 10:30:57.741+0000:   timestamps=YES
+2012-01-14 10:30:57.741+0000:   use_memory_mapped_buffers=true
+2012-01-14 10:30:57.741+0000:   rebuild_idgenerators_fast=true
+2012-01-14 10:30:57.741+0000:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-01-14 10:30:57.741+0000:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-01-14 10:30:57.741+0000:   max_node_cache_size=1500
+2012-01-14 10:30:57.741+0000:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-01-14 10:30:57.741+0000:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-01-14 10:30:57.741+0000:   neo_store=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test/neostore
+2012-01-14 10:30:57.741+0000:   adaptive_cache_worker_sleep_time=3000
+2012-01-14 10:30:57.741+0000:   neostore.propertystore.db.index.mapped_memory=1M
+2012-01-14 10:30:57.742+0000:   create=true
+2012-01-14 10:30:57.742+0000:   adaptive_cache_manager_increase_ratio=1.1
+2012-01-14 10:30:57.742+0000:   enable_remote_shell=port=9332
+2012-01-14 10:30:57.742+0000:   neostore.propertystore.db.mapped_memory=90M
+2012-01-14 10:30:57.742+0000:   relationship_auto_indexing=false
+2012-01-14 10:30:57.742+0000:   storage_path=/home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:57.742+0000:   ha.server=localhost:6002
+2012-01-14 10:30:57.742+0000:   migration_thread=NO
+2012-01-14 10:30:57.742+0000: Storage files:
+2012-01-14 10:30:57.742+0000:   rrd: 1.93 MB
+2012-01-14 10:30:57.742+0000:   lock: 0.00 B
+2012-01-14 10:30:57.742+0000:   neostore.propertystore.db.index: 0.00 B
+2012-01-14 10:30:57.743+0000:   neostore.relationshiptypestore.db: 0.00 B
+2012-01-14 10:30:57.743+0000:   neostore.propertystore.db.id: 9.00 B
+2012-01-14 10:30:57.743+0000:   index:
+2012-01-14 10:30:57.743+0000:     lucene.log.1: 16.00 B
+2012-01-14 10:30:57.743+0000:     lucene-store.db: 32.00 B
+2012-01-14 10:30:57.743+0000:     lucene.log.active: 4.00 B
+2012-01-14 10:30:57.743+0000:   - Total: 52.00 B
+2012-01-14 10:30:57.743+0000:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-01-14 10:30:57.743+0000:   neostore.propertystore.db.arrays: 128.00 B
+2012-01-14 10:30:57.743+0000:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-01-14 10:30:57.744+0000:   neostore.propertystore.db: 0.00 B
+2012-01-14 10:30:57.744+0000:   nioneo_logical.log.1: 16.00 B
+2012-01-14 10:30:57.744+0000:   neostore.id: 9.00 B
+2012-01-14 10:30:57.744+0000:   tm_tx_log.1: 0.00 B
+2012-01-14 10:30:57.744+0000:   neostore.propertystore.db.strings: 128.00 B
+2012-01-14 10:30:57.744+0000:   neostore.relationshiptypestore.db.names: 38.00 B
+2012-01-14 10:30:57.744+0000:   neostore.relationshipstore.db.id: 9.00 B
+2012-01-14 10:30:57.744+0000:   neostore: 54.00 B
+2012-01-14 10:30:57.744+0000:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-01-14 10:30:57.745+0000:   neostore.propertystore.db.index.keys: 38.00 B
+2012-01-14 10:30:57.745+0000:   nioneo_logical.log.active: 4.00 B
+2012-01-14 10:30:57.745+0000:   neostore.propertystore.db.strings.id: 9.00 B
+2012-01-14 10:30:57.745+0000:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-01-14 10:30:57.745+0000:   active_tx_log: 11.00 B
+2012-01-14 10:30:57.745+0000:   neostore.nodestore.db: 9.00 B
+2012-01-14 10:30:57.745+0000:   neostore.relationshipstore.db: 0.00 B
+2012-01-14 10:30:57.745+0000:   neostore.nodestore.db.id: 9.00 B
+2012-01-14 10:30:57.745+0000:   messages.log: 38.31 kB
+2012-01-14 10:30:57.745+0000:   neostore.propertystore.db.index.id: 9.00 B
+2012-01-14 10:30:57.746+0000: Id usage:
+2012-01-14 10:30:57.746+0000:   NodeStore: used=1 high=0
+2012-01-14 10:30:57.746+0000:   RelationshipStore: used=0 high=-1
+2012-01-14 10:30:57.746+0000:   RelationshipTypeStore: used=0 high=-1
+2012-01-14 10:30:57.746+0000:   PropertyStore: used=0 high=-1
+2012-01-14 10:30:57.746+0000:   PropertyIndexStore: used=0 high=-1
+2012-01-14 10:30:57.746+0000:   StringPropertyStore: used=1 high=0
+2012-01-14 10:30:57.746+0000:   ArrayPropertyStore: used=1 high=0
+2012-01-14 10:30:57.749+0000: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+  noop deadline [cfq] 
+  none
+
+2012-01-14 10:30:57.749+0000: --- CONFIGURATION END ---
+2012-01-14 10:30:57.763+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-01-14 10:30:57.763+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-01-14 10:30:57.846+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-01-14 10:30:57.867+0000: --- SERVER STARTUP START ---
+2012-01-14 10:30:57.867+0000: Server configuration:
+2012-01-14 10:30:57.867+0000:   org.neo4j.server.database.location = /home/escher/src/rails/neo4j-rails-example/db/neo4j-test
+2012-01-14 10:30:57.869+0000: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2012-01-14 10:30:57.872+0000: Loaded server plugin "CypherPlugin" (org.neo4j.server.plugin.cypher.CypherPlugin)
+2012-01-14 10:30:57.872+0000:   GraphDatabaseService.execute_query: execute a query
+2012-01-14 10:30:57.873+0000: Loaded server plugin "GremlinPlugin" (org.neo4j.server.plugin.gremlin.GremlinPlugin)
+2012-01-14 10:30:57.873+0000:   GraphDatabaseService.execute_script: execute a Gremlin script with 'g' set to the Neo4jGraph and 'results' containing the results. Only results of one object type is supported.
+2012-01-14 10:30:57.874+0000: Mounted REST API at: /db/data
+2012-01-14 10:30:57.875+0000: Mounted management API at: /db/manage
+2012-01-14 10:30:58.052+0000: Mounted webadmin at: /webadmin
+2012-01-14 10:30:59.594+0000: --- SERVER STARTUP END ---
+2012-01-14 10:31:00.893+0000: Closed log /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/nioneo_logical.log
+2012-01-14 10:31:01.508+0000: NeoStore closed
+2012-01-14 10:31:01.553+0000: Closed log /home/escher/src/rails/neo4j-rails-example/db/neo4j-test/index/lucene.log
+2012-01-14 10:31:01.554+0000: NeoStore closed
+2012-01-14 10:31:01.554+0000: TM shutting down

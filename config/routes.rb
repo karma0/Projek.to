@@ -1,23 +1,26 @@
-Projekto::Application.routes.draw do
+Neo4jRailsExample::Application.routes.draw do
+  resources :users
 
-  resources :users do
+  resources :actors do
     member do
-      get :following, :followers
+      # Lets you pick a movie to associate with this actor.
+      get :add_role
     end
   end
-  
-  resources :sessions,      :only => [:new, :create, :destroy]
-  resources :microposts,    :only => [:create, :destroy]
-  resources :relationships, :only => [:create, :destroy]
-  
-  root :to => "pages#home"
 
-  match '/contact', :to => 'pages#contact'
-  match '/about',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
-  match '/signup',  :to => 'users#new'
-  match '/signin',  :to => 'sessions#new'
-  match '/signout', :to => 'sessions#destroy'
+  resources :movies do
+    member do
+      # Lets you pick an actor to associate with this movie.
+      get :add_role
+    end
+  end
+
+  resources :roles, :except => [:new, :create] do
+  end
+  get 'roles/:actor_id/:movie_id' => 'roles#new', :as => :new_role
+  post 'roles/:actor_id/:movie_id' => 'roles#create', :as => :roles
+
+  root :to => "actors#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -36,12 +39,12 @@ Projekto::Application.routes.draw do
   # Sample resource route with options:
   #   resources :products do
   #     member do
-  #       get :short
-  #       post :toggle
+  #       get 'short'
+  #       post 'toggle'
   #     end
   #
   #     collection do
-  #       get :sold
+  #       get 'sold'
   #     end
   #   end
 
@@ -55,7 +58,7 @@ Projekto::Application.routes.draw do
   #   resources :products do
   #     resources :comments
   #     resources :sales do
-  #       get :recent, :on => :collection
+  #       get 'recent', :on => :collection
   #     end
   #   end
 
