@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.3'
 
 gem 'neo4j', '1.3.1'
+gem 'neo4j-admin'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -21,8 +22,10 @@ gem 'neo4j', '1.3.1'
 # and rake tasks are available in development mode:
 group :development, :test do
   gem 'webrat'
-  gem 'neo4j-admin'
 
   # To use debugger
   gem 'ruby-debug'
 end
+
+gem 'jquery-rails'
+
