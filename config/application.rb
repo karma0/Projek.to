@@ -8,7 +8,8 @@ require "active_resource/railtie"
 require "rails/test_unit/railtie"
 
 # for the neo4j-admin gem
-#require "neo4j-admin/railtie"
+#require "neo4j-admin"
+require "neography"
 
 
 # Auto-require default libraries and those for the current Rails environment. 
@@ -51,7 +52,15 @@ module Neo4jRailsExample
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
-    config.neo4j.storage_path = "#{config.root}/db/neo4j-#{Rails.env}"
+#config.neo4j.storage_path = "#{config.root}/db/neo4j-#{Rails.env}"
 
+
+    config.assets.enabled = true
+    config.assets.version = '1.0'
+    config.assets.prefix = '/assets'
   end
+end
+
+if defined?(Bundler)
+  Bundler.require *Rails.groups(:assets => %w(:development, :test))
 end

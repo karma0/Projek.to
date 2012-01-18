@@ -2,8 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 
-gem 'neo4j', '1.3.1'
-#gem 'neo4j-admin'
+gem 'neoid'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -23,9 +22,19 @@ gem 'neo4j', '1.3.1'
 group :development, :test do
   gem 'webrat'
 
+  #gem 'neo4j'
+#  gem 'neo4j', '1.3.1'
+#  gem 'neo4j-admin'
+
   # To use debugger
   gem 'ruby-debug'
 end
 
 gem 'jquery-rails'
+
+group :assets do
+  gem 'sass-rails', "~> 3.1.0"
+  gem 'coffee-rails', "~> 3.1.0"
+  gem 'uglifier'
+end
 
