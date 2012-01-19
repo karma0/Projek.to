@@ -2,7 +2,7 @@ ENV["NEO4J_URL"] ||= "http://localhost:7474"
 
 uri = URI.parse(ENV["NEO4J_URL"])
 
-$neo = Neography::Rest.new(neo4j_uri.to_s)
+$neo = Neography::Rest.new(uri.to_s)
 
 Neography::Config.tap do |c|
   c.server = uri.host

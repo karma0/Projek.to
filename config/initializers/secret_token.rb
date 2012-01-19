@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Projekto::Application.config.secret_token = '4b67972c7f8b0be9314c813c9eb128abfad57618af1d518546bd82d4ac45260c6953d4085ff5a53c5e8246f22fc323ebccd1914c56f708d94a486bc30ac1015e'
+Projekto::Application.config.secret_token = 'c6bf1c1aaf8b1769bfe094c8bcbbba8f94bd6c4c7a226f099f8d4c68f1c0cbbc321e482098449e329860b0b4fbae96aa1546ce94e7f25f2785ca7970527630f1'
