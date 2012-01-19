@@ -3,6 +3,9 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.3'
 
 gem 'neoid'
+gem 'json'
+gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -27,7 +30,7 @@ group :development, :test do
 #  gem 'neo4j-admin'
 
   # To use debugger
-  gem 'ruby-debug'
+  gem 'ruby-debug19'
 end
 
 gem 'jquery-rails'
@@ -36,5 +39,24 @@ group :assets do
   gem 'sass-rails', "~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
+end
+
+group :production do
+	gem 'pg'
+end
+
+group :development, :test do
+	gem 'rspec-rails'
+end
+
+group :development do
+	gem 'faker'
+	gem 'sqlite3'
+end
+
+group :test do
+	gem 'webrat'
+	gem 'spork'
+	gem 'factory_girl_rails'
 end
 
