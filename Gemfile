@@ -2,8 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 
-#gem 'neography'
-gem 'neoid'
+gem 'neography'
+#gem 'neoid'
 gem 'json'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
