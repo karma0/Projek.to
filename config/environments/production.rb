@@ -60,5 +60,5 @@ Projekto::Application.configure do
 
   config.assets.js_compressor = :uglifier
 
-  config.assets.precompile = += ['ie.css', 'print.css', 'screen.css']
+  config.assets.precompile += ['ie.css', 'print.css', 'screen.css']
 end
