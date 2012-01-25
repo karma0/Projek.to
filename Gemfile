@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '3.2.0'
 
 gem 'neography'#, '0.0.20'
 #gem 'neoid'
@@ -37,8 +37,8 @@ end
 gem 'jquery-rails'
 
 group :assets do
-  gem 'sass-rails', "~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails'#, "~> 3.1.0"
+  gem 'coffee-rails'#, "~> 3.2.1"
   gem 'uglifier'
 end
 
