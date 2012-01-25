@@ -59,4 +59,6 @@ Projekto::Application.configure do
   config.active_support.deprecation = :notify
 
   config.assets.js_compressor = :uglifier
+
+  config.assets.precompile = += ['ie.css', 'print.css', 'screen.css']
 end
